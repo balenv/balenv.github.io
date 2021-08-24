@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="107" height="107" viewBox="0 0 107 107">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #25a825;
+      }
+
+      .cls-2 {
+        fill: #fefefe;
+      }
+
+      .cls-3 {
+        filter: url(#Rectángulo_5);
+      }
+    </style>
+    <filter id="Rectángulo_5" x="0" y="0" width="107" height="107" filterUnits="userSpaceOnUse">
+      <feOffset dx="-3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.341"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_12" data-name="Grupo 12" transform="translate(-1413 -50)">
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, 1413, 50)">
+      <rect id="Rectángulo_5-2" data-name="Rectángulo 5" class="cls-1" width="89" height="89" rx="17" transform="translate(12 6)"/>
+    </g>
+    <path id="Icon_awesome-instagram" data-name="Icon awesome-instagram" class="cls-2" d="M22.032,13.281a11.3,11.3,0,1,0,11.3,11.3A11.278,11.278,0,0,0,22.032,13.281Zm0,18.639a7.344,7.344,0,1,1,7.344-7.344A7.357,7.357,0,0,1,22.032,31.921Zm14.392-19.1a2.635,2.635,0,1,1-2.635-2.635A2.629,2.629,0,0,1,36.425,12.819Zm7.481,2.674c-.167-3.529-.973-6.655-3.559-9.231S34.645,2.88,31.116,2.7c-3.637-.206-14.54-.206-18.177,0-3.519.167-6.646.973-9.231,3.549S.326,11.954.149,15.483c-.206,3.637-.206,14.54,0,18.177.167,3.529.973,6.655,3.559,9.231s5.7,3.382,9.231,3.559c3.637.206,14.54.206,18.177,0,3.529-.167,6.655-.973,9.231-3.559s3.382-5.7,3.559-9.231c.206-3.637.206-14.53,0-18.167Zm-4.7,22.07a7.435,7.435,0,0,1-4.188,4.188c-2.9,1.15-9.782.885-12.987.885s-10.1.256-12.987-.885a7.435,7.435,0,0,1-4.188-4.188c-1.15-2.9-.885-9.782-.885-12.987s-.256-10.1.885-12.987A7.435,7.435,0,0,1,9.046,7.4c2.9-1.15,9.782-.885,12.987-.885s10.1-.256,12.987.885a7.435,7.435,0,0,1,4.188,4.188c1.15,2.9.885,9.782.885,12.987s.265,10.1-.885,12.987Z" transform="translate(1447.473 75.923)"/>
+  </g>
+</svg>
