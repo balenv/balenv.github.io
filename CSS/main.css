@@ -7,7 +7,7 @@ body {
   background-image: url(../assets/fondohome.svg);
   background-repeat: no-repeat;
   background-position: center top;
-  background-size: 110% 1500px;
+  background-size: 110% 1460px;
 }
 
 footer {
@@ -175,7 +175,7 @@ ul {
   display: -ms-flexbox;
   display: flex;
   margin-left: 7em;
-  margin-top: -4em;
+  margin-top: -8em;
 }
 
 .hero .w3-content .mySlides {
@@ -190,10 +190,14 @@ ul {
   font-size: 40px;
   color: white;
   cursor: pointer;
+  display: block;
+  height: 45px;
+  width: 50px;
+  margin-top: 5em;
 }
 
 .hero .w3-content .w3-display-left {
-  left: -1085px;
+  left: -1090px;
   position: relative;
 }
 
@@ -202,28 +206,16 @@ ul {
   right: 10px;
 }
 
-.hero .publicidad-large {
-  margin-top: -7em;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: none;
-}
-
-.hero .publicidad-large img {
-  height: 450px;
-  width: auto;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-
 .hero h2 {
   color: white;
   font-weight: 700;
-  font-size: 2em;
+  font-size: 2.5em;
   margin-left: 11em;
   margin-top: 1.4em;
+}
+
+.hero .socios {
+  margin-top: -2em;
 }
 
 .hero .socios ul {
@@ -259,10 +251,10 @@ ul {
 }
 
 .productos h2 {
-  margin-left: 8em;
   margin-bottom: 2em;
   color: #707070;
   font-size: 2em;
+  padding-left: 4em;
 }
 
 .productos .destacados {
@@ -345,10 +337,14 @@ ul {
   margin-bottom: -1em;
 }
 
+.barra-baja ul {
+  margin-top: 2em;
+}
+
 .barra-baja li {
   line-height: 30px;
-  -webkit-text-decoration-color: black;
-          text-decoration-color: black;
+  -webkit-text-decoration-color: none;
+          text-decoration-color: none;
 }
 
 .barra-baja p {
@@ -357,6 +353,16 @@ ul {
   margin-right: 3em;
   padding-left: 3em;
   padding-top: 0.5em;
+}
+
+.barra-baja a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.barra-baja a:hover {
+  color: royalblue;
 }
 
 @media screen and (min-width: 1536px) {
